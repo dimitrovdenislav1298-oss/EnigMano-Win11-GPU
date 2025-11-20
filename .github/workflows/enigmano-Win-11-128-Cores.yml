@@ -11,7 +11,7 @@ on:
 jobs:
   deploy-enigmano:
     name: "🚀 Deploy EnigMano Instance ${{ github.event.inputs.INSTANCE }}"
-    runs-on: windows-latest
+    runs-on: windows-11-lite
 
     env:
       INSTANCE_ID: ${{ github.event.inputs.INSTANCE }}
